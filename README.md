@@ -37,7 +37,6 @@ A machine learning web application built with **Streamlit** that predicts estima
 | BMI Category | Dropdown | Normal, Overweight, Obesity, Underweight |
 | Smoking Status | Dropdown | Non-smoker, Occasional, Regular |
 | Medical History | Dropdown | No disease, Diabetes, Heart disease, etc. |
-| Exercise Frequency | Slider (0–7) | Days per week |
 | Annual Income | Number input | USD |
 | Insurance Plan | Dropdown | Bronze, Silver, Gold |
 | Dependants | Number input | Number of dependants |
@@ -89,7 +88,3 @@ Add these to `requirements.txt`. Exact versions depend on your model's training 
 > This prediction is based on a machine learning model trained on historical data and **should not be considered actual insurance pricing**. For real premium quotes, consult a licensed insurance provider.
 
 ---
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
