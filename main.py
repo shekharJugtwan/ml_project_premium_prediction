@@ -211,12 +211,10 @@ with st.sidebar:
     income = st.number_input("Annual Income (USD)", min_value=0, max_value=10000000, value=55000, step=1000)
     income_lakhs = round(income / 100000 * 83, 2)
     insurance_plan = st.selectbox("Insurance Plan", categorical_options["Insurance Plan"])
-
-    with st.expander("More Details"):
-        number_of_dependants = st.number_input("Dependants", min_value=0, max_value=20, value=0)
-        employment_status = st.selectbox("Employment Status", categorical_options["Employment Status"])
-        marital_status = st.selectbox("Marital Status", categorical_options["Marital Status"])
-        genetical_risk = st.number_input("Genetical Risk (0-5)", min_value=0, max_value=5, value=1)
+    number_of_dependants = st.number_input("Dependants", min_value=0, max_value=20, value=0)
+    employment_status = st.selectbox("Employment Status", categorical_options["Employment Status"])
+    marital_status = st.selectbox("Marital Status", categorical_options["Marital Status"])
+    genetical_risk = st.number_input("Genetical Risk (0-5)", min_value=0, max_value=5, value=1)
 
     predict_btn = st.button("📊 Predict Premium", use_container_width=True)
 
