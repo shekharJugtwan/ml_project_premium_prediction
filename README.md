@@ -61,30 +61,6 @@ insurance-premium-prediction/
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/insurance-premium-prediction.git
-cd insurance-premium-prediction
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the app
-
-```bash
-streamlit run main.py
-```
-
-The app will open at `http://localhost:8501` in your browser.
-
----
 
 ## 📦 Requirements
 
