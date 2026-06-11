@@ -314,6 +314,18 @@ if predict_btn:
         '<div class="s-item"><div class="s-icon">📋</div>'
         f'<div><div class="s-label">Insurance Plan</div><div class="s-val">{insurance_plan}</div></div></div>'
 
+        '<div class="s-item"><div class="s-icon">🚻</div>'
+        f'<div><div class="s-label">Number of Dependents</div><div class="s-val">{number_of_dependants}</div></div></div>'
+
+        '<div class="s-item"><div class="s-icon">💰</div>'
+        f'<div><div class="s-label">Employement Status</div><div class="s-val">{employment_status}</div></div></div>'
+
+        '<div class="s-item"><div class="s-icon">👤</div>'
+        f'<div><div class="s-label">Martial Status</div><div class="s-val">{marital_status}</div></div></div>'
+
+        '<div class="s-item"><div class="s-icon">📋</div>'
+        f'<div><div class="s-label">Genetical Risk</div><div class="s-val">{genetical_risk}</div></div></div>'
+
 
         '</div></div>'
     )
